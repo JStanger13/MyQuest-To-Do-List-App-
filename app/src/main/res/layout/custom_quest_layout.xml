@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/goToObjectives"
+        android:tint="#000"
+        android:background="@drawable/ic_action_sword"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/questTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text=" "
+        android:fontFamily="sans-serif"/>
+        <TextView
+            android:id="@+id/questDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quest Title"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"/>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/deleteQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_action_bow"/>
+</LinearLayout>
+
